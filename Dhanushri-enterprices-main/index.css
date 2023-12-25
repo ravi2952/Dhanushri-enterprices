@@ -1,66 +1,61 @@
 *{
     padding: 0;
     margin: 0;
-    background-color: #373737;
-    
     color: #fff;
+}
+body{
+    background-color: #202020;
+}
+
+/*      NAVBAR       */
+
+.navbar{
+    background-color: #ffc107;
+}
+.nav-item{
+    background-color: #ffc107;
+}
+
+.nav-link{
+    color: #202020;
+    font-weight: 600;
+    margin: 0px 10px;
+    
+}
+.nav-link:hover{
+    color: #fff;
+    background-color: #202020;
+    border-radius: 20px;
+}
+.navbar-toggler{
+    background-color: #fff;
 }
 .view{
     margin: 0;
     padding: 0;
-
-
 }
 .view h1{
     color: orange;
     text-align: center;
 }
+.view h3{
+    text-align: center;
+}
 .view img{
-    margin: 0;
-    padding: 0;
-    padding-left: 450px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 .founder h3{
     text-align: center;
     color: orange;
 }
-nav{
-    background-color: orange;
-    flex: 1;
-    text-align: right;
-    font-size: large;
-}
-nav ul{
-    background-color: orange;
-    display: flex;
-    list-style-type: none;
-    justify-content: right;
-}
-nav ul li{
-    background-color: orange;
-    margin: 0;
-    padding: 5px;
-    display: flex;
-    text-align: right;
-    justify-content: right;
-    
-    
-}
-nav ul li a{
-    color: orange;
-    margin: 0;
-    padding: 0;
-    
-    text-decoration: none;
-    text-align: right;
-    
-}
+
 
 .contact-buttons{
-    margin: 0;
-    padding-left: 450px;
-    width: 100%;
-
+    margin: 20px;
+    padding: 10px;
+    text-align: center;
 }
 .table-row-label-text{
     color: orange;
@@ -100,29 +95,34 @@ nav ul li a{
     display: flex;
     justify-content: center;
 }
+
+/*           FOOTER         */
+
 .footer{
-    width: 100%;
-    align-items: center;
-    
-}
-.footer h1{
-    color: orange;
-    text-align: center;
-
-}
-.footer-menu li a{
-    text-decoration: none;
-   
-    width: 200px;
-    padding: 15px 0;
-    text-align: center;
-    margin: 20px 10px;
-    border-radius: 25px;
+    margin-top: 150px;
+    background-color: #202020;
+  }
+  
+  .brands{
     display: flex;
+    padding-top: 50px;
+    justify-content: center;
+  }
+  
+  .footer p {
+    padding-top: 10px;
     text-align: center;
-
-}
-.footer-menu-link{
-justify-content: center;
-align-items: center;
-}
+    text-decoration: none;
+    color: #ffc107;
+    font-size: 50px;
+    font-weight: 600;
+  }
+  
+  .footer a{
+    color: rgb(173, 169, 169);
+    font-size: 12px;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+    margin: 0px 30px;
+  }
