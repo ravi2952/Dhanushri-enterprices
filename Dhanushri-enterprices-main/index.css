@@ -1,0 +1,128 @@
+*{
+    padding: 0;
+    margin: 0;
+    background-color: #373737;
+    
+    color: #fff;
+}
+.view{
+    margin: 0;
+    padding: 0;
+
+
+}
+.view h1{
+    color: orange;
+    text-align: center;
+}
+.view img{
+    margin: 0;
+    padding: 0;
+    padding-left: 450px;
+}
+.founder h3{
+    text-align: center;
+    color: orange;
+}
+nav{
+    background-color: orange;
+    flex: 1;
+    text-align: right;
+    font-size: large;
+}
+nav ul{
+    background-color: orange;
+    display: flex;
+    list-style-type: none;
+    justify-content: right;
+}
+nav ul li{
+    background-color: orange;
+    margin: 0;
+    padding: 5px;
+    display: flex;
+    text-align: right;
+    justify-content: right;
+    
+    
+}
+nav ul li a{
+    color: orange;
+    margin: 0;
+    padding: 0;
+    
+    text-decoration: none;
+    text-align: right;
+    
+}
+
+.contact-buttons{
+    margin: 0;
+    padding-left: 450px;
+    width: 100%;
+
+}
+.table-row-label-text{
+    color: orange;
+
+}
+.about{
+    color: #fff;
+    text-align: center;
+
+}
+.speciality-label{
+    color: #fff;
+    text-align: center;
+}
+.unorderedList{
+    display: table;
+    list-style: none;
+    padding-left: 550px;
+}
+
+.bar{
+    display: flex;
+    justify-content: center;
+    color: orange;
+}
+
+/*       PAYMENT PAGE       */
+
+.payment-heading{
+    display: flex;
+    justify-content: center;
+}
+
+/*        GALLERY PAGE       */
+
+.gallery-heading{
+    display: flex;
+    justify-content: center;
+}
+.footer{
+    width: 100%;
+    align-items: center;
+    
+}
+.footer h1{
+    color: orange;
+    text-align: center;
+
+}
+.footer-menu li a{
+    text-decoration: none;
+   
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    display: flex;
+    text-align: center;
+
+}
+.footer-menu-link{
+justify-content: center;
+align-items: center;
+}
