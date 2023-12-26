@@ -30,6 +30,9 @@ body{
 .navbar-toggler{
     background-color: #fff;
 }
+
+/*     BODY          */
+
 .view{
     margin: 0;
     padding: 0;
@@ -56,15 +59,26 @@ body{
     padding: 10px;
     text-align: center;
 }
-.table-row-label-text{
-    color: orange;
 
-}
+/*          ABOUT        */
+
 .about{
     color: #fff;
     text-align: center;
 
 }
+.about-text{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 50px;
+}
+.label h3{
+    color: #ffc107;
+}
+
+/*      SPECIALITIES       */
+
 .speciality-label{
     color: #fff;
     text-align: center;
@@ -101,8 +115,12 @@ body{
     flex-wrap: wrap;
     width: 100%;
 }
+
+/*       PRODUCTS        */
+
 #products{
     text-align: center;
+    margin: 100px;
 }
 .image h1{
     color: #fff;
@@ -121,9 +139,42 @@ body{
     filter: grayscale(1);
     transform: scale(1.03);
 }
+.order-product{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 25px;
+}
+.order-product h3{
+    font-weight: 600;
+    margin-right: 10px;
+}
+.order-product a{
+    color: black;
+    background-color: #ffc107;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 10px 25px;
+    border-radius: 10px;
+}
+
+/*           payment         */
+
+.payment-text{
+    text-align: center;
+}
+.payment{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 50px;
+}
 
 /*           FEEDBACK        */
 
+#Feedback{
+    margin: 150px;
+}
 .feedback{
     display: flex;
     flex-direction: column;
