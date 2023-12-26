@@ -55,7 +55,6 @@ body{
 }
 
 .contact-buttons{
-    margin: 20px;
     padding: 10px;
     text-align: center;
 }
@@ -84,9 +83,12 @@ body{
     text-align: center;
 }
 .unorderedList{
-    display: table;
-    list-style: none;
-    padding-left: 550px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.li{
+    margin: 50px;
 }
 
 .bar{
@@ -120,7 +122,7 @@ body{
 
 #products{
     text-align: center;
-    margin: 100px;
+    padding: 50px;
 }
 .image h1{
     color: #fff;
@@ -130,7 +132,6 @@ body{
     height: 300px;
     border: 2px solid #ff3d0036;
     border-radius: 13px;
-    
     cursor: pointer;
     margin: 10px;
     transition: 400ms;
@@ -167,13 +168,13 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    margin: 50px;
+    padding: 50px;
 }
 
 /*           FEEDBACK        */
 
 #Feedback{
-    margin: 150px;
+    padding: 50px;
 }
 .feedback{
     display: flex;
@@ -185,7 +186,7 @@ body{
 .form{
     display: flex;
     flex-direction: column;
-    margin: 25px;
+    padding: 25px;
 }
 .input-name{
     width: 450px;
