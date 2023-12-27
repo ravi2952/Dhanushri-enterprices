@@ -14,6 +14,7 @@
 
         <section id="navbar">
             <nav class="navbar navbar-expand-lg ">
+                
                 <div class="container-fluid">
                   <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -24,30 +25,20 @@
                         <a class="nav-link" href="#">HOME</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="#">GALLERY</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="#">CONTACT</a>
-                      </li>
-                      <li class="nav-item">
                         <a class="nav-link" href="#">ABOUT US</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="#">PAYMENT</a>
+                        <a class="nav-link" href="#">GALLERY</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="#">ENQUIRY</a>
+                        <a class="nav-link" href="#">PRODUCTS</a>
                       </li>
-                      <div class="dropdown">
-                        <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                          PRODUCTS
-                        </button>
-                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                          <li><a class="dropdown-item" href="#">Areca leaf plates</a></li>
-                          <li><a class="dropdown-item" href="#">Home care</a></li>
-                          <li><a class="dropdown-item" href="#">Health care</a></li>
-                        </ul>
-                      </div>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">SHIPPING</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">CONTACT US</a>
+                      </li>
                     </ul>
                   </div>
                 </div>
@@ -58,14 +49,16 @@
 
     <section id="body">
     <div class="view">
+        <div class="logo"><img src="logo.jpg"></div>
         <h1>DHANUSHRI ENTERPRISES</h1>
         <h3>தனுஶ்ரீ ஆயுர்வேதிக் ஹெல்த்கேர் சென்டர் (மத்திய அரசால் தரச்சான்று பெற்றது)<br>
             Reetha M (Founder & CEO)</h3>
-            <img src="images/img1.jpg" class="img-fluid">
+            <img src="images/img1.jpg">
+            
   
         <div class="contact-buttons">
                 <a class="contact-button" href="tel:+919894516981">
-                    <i class="fas fa-phone ">Phone<span style="color: bisque;padding: 5px; "></span></i>
+                    <i class="fas fa-phone ">Phone<span style="color: bisque;padding: 5px;"></span></i>
                     <!-- Call -->
                 </a>
                 <a class="contact-button" target="_blank" href="https://wa.me/919600549219?text=Got reference from your Digital vCard. Want to know more details.">
@@ -81,6 +74,7 @@
                     <!-- Mail -->
                 </a>
         </div>
+
     </div>
 </section>
 
@@ -89,50 +83,76 @@
     <section id="About Us" >
         <h1 class="about">ABOUT US<span style="color: orange;text-align: center;"></span></h1>
         <div class="bar">_____________________________________</div>
-        <div class="about-text">
-            <div class="label">
-                <h3>Company Name</h3>
-                <h3>Year of Est</h3>
-                <h3>Nature of Business</h3>
-            </div>
-            <div class="number">
-                <h3> : DHANUSHRI ENTERPRISES</h3>
-                <h3> : 2023</h3>
-                <h3> : Manufacturer, WholeSaler, Distributor, <br>Retailer, பாக்கு மட்டை தட்டுகள் </h3>
-            </div>
-        </div>
-    </section>
 
-        <!--   Specialities   -->
-
-        <section id="Specialities">
+        <table class="about-us-table">
+            <tbody>
+                <tr>
+                    <td class="table-row-label">
+                        <h3 class="table-row-label-text">Company Name<span style="color: orange;"></span></h3><b class="table-row-label-separator">:</b>
+                    <td>
+                    <td class="table-row-value">
+                        DHANUSHRI ENTERPRISES
+                    <td>
+                </tr>
+                <tr>
+                        <td class="table-row-label">
+                            <h3 class="table-row-label-text">Category</h3><b class="table-row-label-separator">:</b>
+                        <td>
+                        <td class="table-row-value">
+                            Agriculture, Farming & Allied
+                        <td>
+                    </tr>
+                <tr>
+                        <td class="table-row-label">
+                            <h3 class="table-row-label-text">Year of Est.</h3><b class="table-row-label-separator">:</b>
+                        <td>
+                        <td class="table-row-value">
+                            2023
+                        <td>
+                    </tr>
+                <tr>
+                        <td class="table-row-label">
+                            <h3 class="table-row-label-text">Nature of Business</h3><b class="table-row-label-separator">:</b>
+                        <td>
+                        <td class="table-row-value">
+                            Manufacturer, Wholesaler, Distributor, Retailer, பாக்கு மட்டை தட்டுகள்
+                        <td>
+                    </tr>
+            </tbody>
+        </table>
         <h3 class="speciality-label">Our Specialities</h3>
         <div class="bar">_____________________________________</div>
 
-        <div class="unorderedList">
-            <div class="li">
-                <hr>
-                <li>Ethical business policies</li>                        
-                <li>Complete client satisfaction</li>
-                <li>Affordable pricing</li>                
-                <li>Live In Touch With Our Customers</li>                
-                <li>On-time deliver/ execution</li>                
-                <li>Qualitative products</li>
-                <hr>
-            </div>
-            <div class="li">
-                <hr>
-                <li>Ability to undertake bulk orders</li>                
-                <li>Transparent dealings</li>                
-                <li>Customized solutions</li>                
-                <li>Wide connectivity</li>                   
-                <li>We listen,We understand, We provide Solution</li>                
-                <li>A great experience with Happy clients</li>                
-                <li>Low Price Guarantee with best services</li>
-                <hr>
-            </div>
-        </div>       
-        </section>
+                    <ul class="unorderedList">
+                        
+                                <li>Ethical business policies</li>
+                                
+                                <li>Complete client satisfaction</li>
+                                
+                                <li>Affordable pricing</li>
+                                
+                                <li>Live In Touch With Our Customers</li>
+                                
+                                <li>On-time deliver/ execution</li>
+                                
+                                <li>Qualitative products</li>
+                                
+                                <li>Ability to undertake bulk orders</li>
+                                
+                                <li>Transparent dealings</li>
+                                
+                                <li>Customized solutions</li>
+                                
+                                <li>Wide connectivity</li>
+                                
+                                <li>We listen,We understand, We provide Solution</li>
+                                
+                                <li>A great experience with Happy clients</li>
+                                
+                                <li>Low Price Guarantee with best services</li>       
+                    </ul>
+                   
+                </section>
 
     <section id="Gallery" class="payment">
 
@@ -227,48 +247,53 @@
             </div>
         </div>
     </section>
-
     <!--  products  -->
-
     <section id="products">
         <h1>PRODUCTS</h1>
         <div class="bar">_____________________________________</div><br>
     <div class="image">
         
-        <img src="IMG-20231224-WA0020.jpg" alt="">
-        <img src="IMG-20231224-WA0021.jpg" alt="">
-        <img src="IMG-20231224-WA0022.jpg" alt="">
-        <img src="IMG-20231224-WA0024.jpg" alt="">
-        <img src="IMG-20231224-WA0025.jpg" alt="">
-        <img src="IMG-20231224-WA0026.jpg" alt="">
-        <img src="IMG-20231224-WA0027.jpg" alt="">
-        <img src="IMG-20231224-WA0019.jpg" alt="">
         
-    </div>
-    <div class="order-product">
-        <h3>For order: </h3>
-        <a href="https://docs.google.com/forms/d/e/1FAIpQLSc1t3Rfa3aiY6mJ1zh1541ggOXD8Vnc-mi4DWRvZfY34_IPRQ/viewform?usp=sf_link">Click here</a>
+        <img src="images/IMG-20231224-WA0020.jpg" alt="">
+        <img src="images/IMG-20231224-WA0021.jpg" alt="">
+        <img src="images/IMG-20231224-WA0022.jpg" alt="">
+        <img src="images/IMG-20231224-WA0024.jpg" alt="">
+        <img src="images/IMG-20231224-WA0025.jpg" alt="">
+        <img src="images/IMG-20231224-WA0026.jpg" alt="">
+        <img src="images/IMG-20231224-WA0027.jpg" alt="">
+        <img src="images/IMG-20231224-WA0019.jpg" alt="">
+        
+        
+
     </div>
     </section>
-
-    <!--   payment    -->
-
-    <section id="payment">
+    <!--  Areca -->
+    <section id="areca">
         <div class="container">
-            <h1 class="payment-text">PAYMENT</h1>
-            <div class="bar">_____________________________________</div>
-            <div class="payment">
-                <div class="label">
-                    <h3>Paytm Number</h3>
-                    <h3>Phone Pe Number</h3>
-                    <h3>Gppgle Pay Number</h3>
-                </div>
-                <div class="number">
-                    <h3> : +91-9894516981</h3>
-                    <h3> : +91-9894516981</h3>
-                    <h3> : +91-9600549219</h3>
+            <h1 class="areca-h1">ARECA PLATES</h1>
+            <div class="bar-1">_____________________________________</div>
+            <div class="areca-p">
+                <img src="A.jpg">
+                <img src="B.jpg">
+                <img src="C.jpg">
+                <img src="D.jpg">
+                <div class="text">
+                    <p>Once Areca palm leaf plates are decomposed, there is absolutely nothing left behind, zero waste, as said before. The resulting compost using Areca leaves is known as “black gold” to gardeners, and can be used to nourish your garden, lawn and houseplants</p>
                 </div>
             </div>
+        </div>
+    </section>
+
+    <!-- Shipping-->
+    <section id="ship">
+        <div class="container">
+            <h1 class="shipping-h1">SHIPPING</h1>
+            <div class="bar-1">_____________________________________</div>
+            <div class="shipping">
+                <p>All of our Manufacturing Facilities are situated in and around Sivakasi Town in South India. Exporting of our products is being mainly made via Tuticorin Port which is at a small distance of 105 KM from Sivakasi.<br> Chennai Port is located at a distance of 510 KM from Sivakasi.<br> These Ports are connected by National Highway for the quick, safe and bulk transportation of all goods.</p>
+            </div>
+            
+
         </div>
     </section>
 
